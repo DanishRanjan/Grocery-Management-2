@@ -7,7 +7,6 @@ urlpatterns = [
     re_path(r'^laptops$', display_laptops, name="display_laptops"),
     re_path(r'^desktops$', display_desktops, name="display_desktops"),
     re_path(r'^mobiles$', display_mobiles, name="display_mobiles"),
-
     re_path(r'^add_laptop$', add_laptop, name="add_laptop"),
     re_path(r'^add_desktop$', add_desktop, name="add_desktop"),
     re_path(r'^add_mobile$', add_mobile, name="add_mobile"),
